@@ -1,4 +1,4 @@
-class userNew {
+class User {
   constructor(name, lastName, books, pets) {
     this.name = name;
     this.lastName = lastName;
@@ -22,18 +22,18 @@ class userNew {
   }
 }
 
-const user = new userNew(
+const user = new User(
   "Tommy",
   "Vercetti",
   [{ name: "the neverending story", author: "michael ende" }],
   ["sparks the dog", "joe the cangaroo"]
 );
 
-console.log("Full name", userNew.getUserName());
+console.log("Full name", user.getUserName());
 console.log("List previous book names", user.getBookTitles());
-userNew.addBook("momo", "michael ende");
-userNew.addBook("jim button and luke the engine driver", "michael ende");
+user.addBook("momo", "michael ende");
+user.addBook("jim button and luke the engine driver", "michael ende");
 console.log("List subsequent book names", user.getBookTitles());
-console.log("Count the pets", userNew.countPets());
-userNew.addPets("nemo the fish");
-console.log("Total pets", userNew.countPets());
+console.log("Count the pets", user.countPets());
+user.addPets("nemo the fish");
+console.log("Total pets", user.countPets());
