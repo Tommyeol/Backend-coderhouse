@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-class container {
+class Container {
   constructor(list) {
     this.list = list;
   }
@@ -8,28 +8,25 @@ class container {
   async getAll() {
     try {
       let dataArch = await fs.promises.readFile(this.list, "utf8");
-      let dataArchParse = JSON.parse(dataArch);
-      if (dataArchParse.length) {
-        console.log(dataArchParse);
-      } else {
-        console.log("There is no products");
-      }
-      console.log(dataArchParse);
+      const dataArchParse = JSON.parse(dataArch);
+      // console.log(dataArchParse);
+      return dataArchParse;
     } catch (error) {
       console.log(error);
     }
   }
   async randomItem() {
     try {
-      let dataArch = await fs.promises.readFile(this.list, "utf8");
-      let dataArchParse = JSON.parse(dataArch);
-      let randomItem =
+      let dataArch = await fs.promises.readFile(this.list, `utf8`);
+      const dataArchParse = JSON.parse(dataArch);
+      let product =
         dataArchParse[Math.floor(Math.random() * dataArchParse.length)];
-      console.log(dataArchParse);
+      // console.log(product);
+      return product;
     } catch (error) {
       console.log(error);
     }
   }
 }
 
-export default container;
+module.exports = Container;

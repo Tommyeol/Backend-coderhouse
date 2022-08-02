@@ -16,5 +16,5 @@
     "price": 70,
     "category": "Action",
     "id": 3
-  },
+  }
 ]
