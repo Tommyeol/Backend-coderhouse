@@ -1,0 +1,32 @@
+[
+  {
+    "title": "SPF Gel 50+",
+    "price": 749,
+    "thumbnail": "http//dailyderm.com",
+    "id": "5"
+  },
+  {
+    "title": "Seffacer ",
+    "price": 550,
+    "thumbnail": "http//daily...",
+    "id": "4"
+  },
+  {
+    "product": "Bakuchiol",
+    "price": 819,
+    "thumbnail": "http//....",
+    "id": 3
+  },
+  {
+    "title": "Scrub Gel",
+    "price": 150,
+    "thumbnail": "http//....",
+    "id": "2"
+  },
+  {
+    "product": "Douce",
+    "price": 220,
+    "thumbnail": "http//....",
+    "id": 1
+  }
+]
