@@ -29,17 +29,17 @@ app.get("/", async (req, res) => {
   res.render("index", {
     list: product,
     isList: true,
-    producto: true,
+    product: true,
   });
 });
 
 app.get("/products", async (req, res) => {
-  const producto = await contender.getAll();
+  const product = await contender.getAll();
   res.render("products", {
-    titulo: "Útiles escolares 2022",
-    list: producto,
+    title: "Cosmetic products",
+    list: product,
     isList: true,
-    producto: true,
+    product: true,
   });
 });
 
