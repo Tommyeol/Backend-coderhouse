@@ -1,0 +1,11 @@
+PUT http://localhost:8080/api/products/4 HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Bakuchiol",
+    "price": "855",
+    "thumbnail": "imgurl"
+}
+
+# DELETE http://localhost:8080/api/products/4 HTTP/1.1
+# content-type: application/json
