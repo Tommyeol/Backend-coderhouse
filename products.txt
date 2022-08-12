@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Bakuchiol",
+    "price": "855",
+    "thumbnail": "https://dailyderm.com/wp-content/uploads/2018/05/Renovador-Page-3-250x250.jpg",
+    "id": 1
+  },
+  {
+    "title": "Absolut C",
+    "price": "921",
+    "thumbnail": "https://dailyderm.com/wp-content/uploads/2018/05/Absolute-C-Dailyderm-1-250x250.jpg",
+    "id": 2
+  },
+  {
+    "title": "Hidrasilk",
+    "price": "742",
+    "thumbnail": "https://dailyderm.com/wp-content/uploads/2018/05/Crema-Hidrasilk-Dailyderm-250x250.jpg",
+    "id": 3
+  }
+]

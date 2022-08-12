@@ -1,0 +1,28 @@
+<div class="title d-flex justify-content-center">
+  <h2>
+    <%= title %>
+  </h2>
+  <br>
+</div>
+<div class="container">
+  <% if (isList) { %>
+    <div class="d-flex p-2 bd-highlight flex-wrap">
+      <% listProducts.forEach((val)=> { %>
+        <div class="card m-2">
+          <img src=<%=val.thumbnail %> class="card-img-top imagen" style="max-width:18rem">
+          <div class="card-body">
+            <h5 class="card-title">
+              <%= val.title %>
+            </h5>
+            <p class="card-text">$<%= val.price %>
+            </p>
+          </div>
+        </div>
+        <% }); %>
+    </div>
+    <% } else { %>
+      <div class="alert alert-danger" role="alert">
+        <strong>There is no products</strong>
+      </div>
+      <% } %>
+</div>
