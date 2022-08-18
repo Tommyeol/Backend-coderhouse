@@ -1,0 +1,64 @@
+<section class="p-4 bg-secondary">
+  <h2 class="text-primary">Insert product</h2>
+  <form id="form-add-product">
+    <div class="mb-3">
+      <label class="form-label fw-bold" for="name">Name</label>
+      <input id="name-product" class="form-control" type="text" name="name" />
+    </div>
+    <div class="mb-3">
+      <label class="form-label fw-bold" for="price">Price</label>
+      <input
+        id="price-product"
+        class="form-control"
+        type="number"
+        name="price"
+      />
+    </div>
+    <div class="mb-3">
+      <label class="form-label fw-bold" for="img">URL picture</label>
+      <input id="img-product" class="form-control" type="url" name="img" />
+    </div>
+    <div class="mb-3">
+      <input class="btn btn-success" type="submit" value="Send" />
+    </div>
+  </form>
+</section>
+<section class="p-4 bg-secondary">
+  <h2 class="text-primary">Products View</h2>
+  {{#if products}}
+    <table class="table table-dark">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Picture</th>
+        </tr>
+      </thead>
+      <tbody id="table-products"></tbody>
+    </table>
+  {{else}}
+    <h2 class="bg-light p-4 text-danger">No listed products</h2>
+  {{/if}}
+</section>
+<section class="p-4 bg-secondary mt-4" style="--bs-bg-opacity: .5;">
+  <h2 class="text-primary mb-4">Message Center</h2>
+  <input
+    id="user-email"
+    class="form-control col-6"
+    type="mail"
+    id="usermail"
+    placeholder="enter emaill"
+  />
+  <hr />
+  <div id="table-chat" class="my-4"></div>
+  <form id="chat-form" class="form-inline">
+    <input
+      id="chat-message"
+      class="form-control mb-3"
+      type="text"
+      name="chatmessage"
+      placeholder="type a message..."
+    />
+    <button class="btn btn-primary" type="submit">Send</button>
+  </form>
+</section>
