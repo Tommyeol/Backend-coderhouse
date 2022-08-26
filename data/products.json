@@ -1,0 +1,22 @@
+[
+  {
+    "name": "SPF 50+ Natural",
+    "description": "Sunscreen",
+    "code": "9586235",
+    "pic": "https://dailyderm.com/wp-content/uploads/2018/05/Soleil-SPF-50-Natural-Dailyderm-250x250.jpg",
+    "price": 379,
+    "stock": 450,
+    "id": 1,
+    "timestamp": 1656957168787
+  },
+  {
+    "name": "Morning Radiance",
+    "description": "Gel",
+    "code": "5984752",
+    "pic": "https://dailyderm.com/wp-content/uploads/2018/05/Morning-Radiance-Dailyderm-1-250x250.jpg",
+    "price": 686,
+    "stock": 360,
+    "id": 2,
+    "timestamp": 1656957169489
+  }
+]
