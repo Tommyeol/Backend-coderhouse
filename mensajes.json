@@ -1,0 +1,62 @@
+{
+	"_id" : ObjectId("6058ea8f1e5c1d14878182d1"),
+	"email" : "john@gmail.com",
+	"text" : "Hola, que tal?",
+	"timestamp" : ISODate("2022-09-22T19:05:51.792Z")
+}
+{
+	"_id" : ObjectId("6058ea8f1e5c1d14878182d2"),
+	"email" : "dior@yahoo.com",
+	"text" : "Bieeeen!",
+	"timestamp" : ISODate("2022-09-22T19:05:51.792Z")
+}
+{
+	"_id" : ObjectId("6058ea8f1e5c1d14878182d3"),
+	"email" : "trevor@gmail.com",
+	"text" : "hola, chicos!",
+	"timestamp" : ISODate("2022-09-22T19:05:51.792Z")
+}
+{
+	"_id" : ObjectId("6058ea8f1e5c1d14878182d4"),
+	"email" : "dinah@gmail.com",
+	"text" : "Que onda?",
+	"timestamp" : ISODate("2022-09-22T19:05:51.792Z")
+}
+{
+	"_id" : ObjectId("6058ea8f1e5c1d14878182d5"),
+	"email" : "john@gmail.com",
+	"text" : "Estoy para salir...",
+	"timestamp" : ISODate("2022-09-22T19:05:51.792Z")
+}
+{
+	"_id" : ObjectId("6058ea8f1e5c1d14878182d6"),
+	"email" : "dior@yahoo.com",
+	"text" : "Vas a salir sin nosotros?",
+	"timestamp" : ISODate("2022-09-22T19:05:51.792Z")
+}
+{
+	"_id" : ObjectId("6058ea8f1e5c1d14878182d7"),
+	"email" : "trevor@gmail.com",
+	"text" : "Quiero ir también!",
+	"timestamp" : ISODate("2022-09-22T19:05:51.792Z")
+}
+{
+	"_id" : ObjectId("6058ea8f1e5c1d14878182d8"),
+	"email" : "dinah@gmail.com",
+	"text" : "Donde vas?",
+	"timestamp" : ISODate("2022-09-22T19:05:51.792Z")
+}
+{
+	"_id" : ObjectId("6058ea8f1e5c1d14878182d9"),
+	"email" : "john@gmail.com",
+	"text" : "Pero voy al mercado...",
+	"timestamp" : ISODate("2022-09-22T19:05:51.792Z")
+}
+{
+	"_id" : ObjectId("6058ea8f1e5c1d14878182da"),
+	"email" : "dior@yahoo.com",
+	"text" : "Uff...",
+	"timestamp" : ISODate("2022-09-22T19:05:51.792Z")
+}
+
+
